@@ -1,0 +1,61 @@
+baseURL: "/"
+canonifyURLs: true
+defaultContentLanguage: "en-US"
+disableHugoGeneratorInject: true
+enableRobotsTXT: true
+languageCode: "en-US"
+theme: "hugo-book"
+timeout: "300s"
+timeZone: "America/New_York"
+
+frontmatter:
+  date:
+    - "date"
+    - ":filename"
+    - "publishDate"
+    - "lastmod"
+    - ":git"
+
+  lastmod:
+    - "lastmod"
+    - ":git"
+
+  publishDate:
+    - ":default"
+    - ":filename"
+
+imaging:
+  hint: "drawing"
+  quality: 85
+  resampleFilter: "Lanczos"
+
+languages:
+  en-US:
+    languageName: "English"
+    copyright: "© 2022 — Anthrocon, Inc."
+    title: "Anthrocon Docs"
+    weight: 1
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  tableOfContents:
+    startLevel: 1
+
+menu:
+  after:
+    - name: "Anthrocon"
+      url: "https://www.anthrocon.org/"
+      weight: 10
+
+    - name: "GitHub"
+      url: "https://github.com/Anthrocon"
+      weight: 20
+
+params:
+  BookTheme: "auto"
+  BookRepo: "https://github.com/Anthrocon/docs"
+  BookDateFormat: "2006-01-02"
+  BookComments: false
