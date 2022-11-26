@@ -15,7 +15,7 @@ jobs:
     permissions:
       id-token: write
       pages: write
-    uses: Anthrocon/action-deploy/.github/workflows/deploy.yaml@main
+    uses: Anthrocon/actions-deploy/.github/workflows/deploy.yaml@main
     with:
       hugo-version: "0.106.0"
     secrets: inherit
