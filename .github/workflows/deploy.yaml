@@ -13,6 +13,7 @@ jobs:
   call:
     name: Call
     permissions:
+      contents: read
       id-token: write
       pages: write
     uses: Anthrocon/actions-deploy/.github/workflows/deploy.yaml@main
