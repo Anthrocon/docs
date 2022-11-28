@@ -1,12 +1,12 @@
 baseURL: "/"
 canonifyURLs: true
-defaultContentLanguage: "en-US"
 disableHugoGeneratorInject: true
 enableRobotsTXT: true
 languageCode: "en-US"
 theme: "hugo-book"
 timeout: "300s"
 timeZone: "America/New_York"
+title: "Anthrocon Docs"
 
 frontmatter:
   date:
@@ -29,13 +29,6 @@ imaging:
   quality: 85
   resampleFilter: "Lanczos"
 
-languages:
-  en-US:
-    languageName: "English"
-    copyright: "© 2022 — Anthrocon, Inc."
-    title: "Anthrocon Docs"
-    weight: 1
-
 markup:
   goldmark:
     renderer:
@@ -57,5 +50,7 @@ menu:
 params:
   BookTheme: "auto"
   BookRepo: "https://github.com/Anthrocon/docs"
+  BookCommitPath: "commit"
+  BookEditPath: "edit/main"
   BookDateFormat: "2006-01-02"
   BookComments: false

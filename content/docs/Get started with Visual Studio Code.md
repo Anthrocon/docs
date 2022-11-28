@@ -1,5 +1,5 @@
 ---
-title: "{{ .Name | humanize | title }}"
+title: "Get started with Visual Studio Code"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
