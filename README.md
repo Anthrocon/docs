@@ -2,7 +2,7 @@
 
 [![Deploy Hugo site](https://github.com/Anthrocon/docs/actions/workflows/deploy.yaml/badge.svg)](https://github.com/Anthrocon/docs/actions/workflows/deploy.yaml)
 
-Documentation relevant to the Anthrocon digital infrastructure. Published to [https://docs.anthrocon.org/](https://docs.anthrocon.org/).
+Documentation relevant to the Anthrocon digital infrastructure. Deploys to [https://docs.anthrocon.org/](https://docs.anthrocon.org/).
 
 ## Scope
 
