@@ -1,3 +1,4 @@
 ---
+title: "GitHub"
 bookFlatSection: true
 ---
