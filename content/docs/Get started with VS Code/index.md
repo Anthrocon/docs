@@ -1,5 +1,5 @@
 ---
-title: "Get started with Visual Studio Code"
+title: "Get started with VS Code"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -9,9 +9,9 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# Get started with Visual Studio Code
+# Get started with VS Code
 
-VS Code is a fully integrated developement environment supporting Git and editing with simple preview.
+Visual Studio Code is a fully integrated developement environment supporting Git and editing with preview.
 
 ## Install VS Code
 
@@ -24,9 +24,9 @@ Default installation is fine. Don't worry if you don't unsterstand these options
 ## Clone your first repository
 
 1. In your web browser, navigate to a repository.
-2. Click `Code` and copy the HTTPS Git address.
-3. From VS Code, select `View` > `Command Palette…`.
-4. Enter and select `Git: Clone` > `Clone from GitHub`.
+2. Click `❮❯ Code ▾` and copy the HTTPS Git address.
+3. From VS Code, select `View` ❯ `Command Palette…`.
+4. Enter and select `Git: Clone` ❯ `Clone from GitHub`.
 5. Enter the HTTPS Git address from above.
 6. Login and authorize VS Code.
 7. Select the folder where VS Code will store the working files for this repository.
