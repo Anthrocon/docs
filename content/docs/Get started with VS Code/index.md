@@ -11,7 +11,7 @@ weight: 1
 
 # Get started with VS Code
 
-Visual Studio Code is a fully integrated developement environment supporting Git and editing with preview.
+Visual Studio Code is a free and fully integrated source-code editor supporting Git and live preview.
 
 ## Install VS Code
 
@@ -23,11 +23,9 @@ Default installation is fine. Don't worry if you don't unsterstand these options
 
 ## Clone your first repository
 
-1. In your web browser, navigate to a repository.
-2. Click `❮❯ Code ▾` and copy the HTTPS Git address.
-3. From VS Code, select `View` ❯ `Command Palette…`.
-4. Enter and select `Git: Clone` ❯ `Clone from GitHub`.
-5. Enter the HTTPS Git address from above.
-6. Login and authorize VS Code.
-7. Select the folder where VS Code will store the working files for this repository.
-8. Open the cloned repository.
+1. From VS Code, select `View` ❯ `Command Palette…`.
+2. Enter and select `Git: Clone` ❯ `Clone from GitHub`.
+3. Sign in and authorize VS Code.
+4. In VS Code, enter and select a repository. `Anthrocon/docs`, for example.
+5. Select a folder where VS Code will store working files for this repository.
+6. Open the cloned repository.
