@@ -8,6 +8,10 @@ timeout: "300s"
 timeZone: "America/New_York"
 title: "Anthrocon Docs"
 
+cascade:
+  _build:
+    publishResources: false
+
 frontmatter:
   date:
     - "date"
@@ -39,11 +43,11 @@ markup:
 
 menu:
   after:
-    - name: "Anthrocon"
+    - name: "Anthrocon ◳"
       url: "https://www.anthrocon.org/"
       weight: 10
 
-    - name: "GitHub"
+    - name: "GitHub ◳"
       url: "https://github.com/Anthrocon"
       weight: 20
 
