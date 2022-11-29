@@ -1,6 +1,6 @@
 ---
 title: "Get started with VS Code"
-weight: 1
+weight: 2
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
