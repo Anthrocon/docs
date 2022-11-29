@@ -19,7 +19,7 @@ GitHub Desktop synchronizes files with a remote repository. An external editor i
 2. When prompted, sign in to GitHub and authorize GitHub Desktop.
 {{< hint warning >}}
 Configure Git to use your GitHub account name and email address. A private email address is provided. Manual configuration can result in commit errors later.
-{{< /hink >}}
+{{< /hint >}}
 
 ## Clone your first repository
 
