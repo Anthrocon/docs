@@ -7,15 +7,13 @@ weight: 2
 # bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
-_build:
-    publishResources: true
 ---
 
 # Get started with VS Code
 
 Visual Studio Code is a free and fully integrated source-code editor supporting Git and live preview.
 
-![VS Code](VS%20Code.PNG)
+{{< img src="VS Code.PNG" alt="VS Code" >}}
 
 ## Install VS Code
 

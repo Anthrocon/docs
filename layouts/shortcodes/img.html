@@ -1,0 +1,50 @@
+{{/*
+	Hugo shortcode to generate a responsive image source set and HTML picture/figure element.
+
+	src
+		Required. File location of image relative to page bundle or assets/images/.
+
+	alt
+		Text img alt tag.
+
+	hint
+		One of drawing, icon, photo, picture, or text. Pre-defined WebP encoding parameters.
+*/}}
+
+{{- $resWidths := slice "240" "480" "720" "960" "1200" "1440" "1680" "1920" "2160" "2400" "2640" "2880" "3120" "3360" "3600" "3840" -}}
+{{- $cssWidth := "736" -}}
+
+{{- $src := .Page.Resources.GetMatch (.Get "src") -}}
+
+{{- $hint := "" -}}
+{{- with .Get "hint" -}}
+	{{- $hint = printf " %s" . -}}
+{{- end -}}
+
+<div>
+    <picture>
+        <source type="image/webp" srcset="
+            {{- with $resWidths -}}
+                {{- range $i, $e := . -}}
+                    {{- if ge $src.Width . -}}
+                        {{- if $i }}, {{ end -}}
+                        {{- ($src.Resize (printf "%sx webp%s" . $hint)).RelPermalink }} {{ . }}w
+                    {{- end -}}
+                {{- end -}}
+            {{- end }}" sizes="(min-width: {{ $cssWidth }}px) {{ $cssWidth }}px, 100vw">
+        <source type="image/jpeg" srcset="
+            {{- with $resWidths -}}
+                {{- range $i, $e := . -}}
+                    {{- if ge $src.Width . -}}
+                        {{- if $i }}, {{ end -}}
+                        {{- ($src.Resize (printf "%sx jpg" .)).RelPermalink }} {{ . }}w
+                    {{- end -}}
+                {{- end -}}
+            {{- end }}" sizes="(min-width: {{ $cssWidth }}px) {{ $cssWidth }}px, 100vw">
+        <img src="
+            {{- ($src.Resize (printf "%sx jpg" $cssWidth)).RelPermalink }}" alt="
+            {{- with .Get "alt" -}}
+                {{- . -}}
+            {{- end }}" width="{{ $src.Width }}" height="{{ $src.Height }}">
+    </picture>
+</div>

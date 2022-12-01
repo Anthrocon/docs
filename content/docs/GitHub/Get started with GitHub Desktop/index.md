@@ -7,15 +7,13 @@ weight: 3
 # bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
-_build:
-    publishResources: true
 ---
 
 # Get started with GitHub Desktop
 
 GitHub Desktop synchronizes files with a remote repository. An external editor is required to edit code.
 
-![GitHub Desktop](GitHub%20Desktop.PNG)
+{{< img src="GitHub Desktop.PNG" alt="GitHub Desktop" >}}
 
 ## Install GitHub Desktop
 
