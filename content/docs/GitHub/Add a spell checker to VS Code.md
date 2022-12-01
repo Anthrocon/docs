@@ -19,6 +19,6 @@ weight: 10
 
 ## Find and fix spelling mistakes
 
-Unknown words are underlined as you type. Find suggestions by selecting the word, then clicking the light bulb icon `💡`.
+Unknown words are underlined as you type. Find suggestions by hovering your mouse over the word, then clicking `Quick Fix…`.
 
 Find all unknown words by selecting `View` ❯ `Problems`.
