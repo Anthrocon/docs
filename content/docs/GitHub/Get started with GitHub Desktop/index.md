@@ -7,6 +7,8 @@ weight: 3
 # bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
+_build:
+    publishResources: true
 ---
 
 # Get started with GitHub Desktop
