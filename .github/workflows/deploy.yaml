@@ -14,13 +14,6 @@ on:
 jobs:
   call:
     name: Call workflow
-    permissions:
-      contents: read
-      id-token: write
-      pages: write
-
     uses: Anthrocon/actions-deploy/.github/workflows/deploy.yaml@main
     with:
       hugo-version: '0.107.0'
-
-    secrets: inherit
