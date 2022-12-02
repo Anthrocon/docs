@@ -22,29 +22,31 @@
 {{- end -}}
 
 <div>
-    <picture>
-        <source type="image/webp" srcset="
-            {{- with $resWidths -}}
-                {{- range $i, $e := . -}}
-                    {{- if ge $src.Width . -}}
-                        {{- if $i }}, {{ end -}}
-                        {{- ($src.Resize (printf "%sx webp%s" . $hint)).RelPermalink }} {{ . }}w
+    <a href="{{ $src.RelPermalink }}">
+        <picture>
+            <source type="image/webp" srcset="
+                {{- with $resWidths -}}
+                    {{- range $i, $e := . -}}
+                        {{- if ge $src.Width . -}}
+                            {{- if $i }}, {{ end -}}
+                            {{- ($src.Resize (printf "%sx webp%s" . $hint)).RelPermalink }} {{ . }}w
+                        {{- end -}}
                     {{- end -}}
-                {{- end -}}
-            {{- end }}" sizes="(min-width: {{ $cssWidth }}px) {{ $cssWidth }}px, 100vw">
-        <source type="image/jpeg" srcset="
-            {{- with $resWidths -}}
-                {{- range $i, $e := . -}}
-                    {{- if ge $src.Width . -}}
-                        {{- if $i }}, {{ end -}}
-                        {{- ($src.Resize (printf "%sx jpg" .)).RelPermalink }} {{ . }}w
+                {{- end }}" sizes="(min-width: {{ $cssWidth }}px) {{ $cssWidth }}px, 100vw">
+            <source type="image/jpeg" srcset="
+                {{- with $resWidths -}}
+                    {{- range $i, $e := . -}}
+                        {{- if ge $src.Width . -}}
+                            {{- if $i }}, {{ end -}}
+                            {{- ($src.Resize (printf "%sx jpg" .)).RelPermalink }} {{ . }}w
+                        {{- end -}}
                     {{- end -}}
-                {{- end -}}
-            {{- end }}" sizes="(min-width: {{ $cssWidth }}px) {{ $cssWidth }}px, 100vw">
-        <img src="
-            {{- ($src.Resize (printf "%sx jpg" $cssWidth)).RelPermalink }}" alt="
-            {{- with .Get "alt" -}}
-                {{- . -}}
-            {{- end }}" width="{{ $src.Width }}" height="{{ $src.Height }}">
-    </picture>
+                {{- end }}" sizes="(min-width: {{ $cssWidth }}px) {{ $cssWidth }}px, 100vw">
+            <img src="
+                {{- ($src.Resize (printf "%sx jpg" $cssWidth)).RelPermalink }}" alt="
+                {{- with .Get "alt" -}}
+                    {{- . -}}
+                {{- end }}" width="{{ $src.Width }}" height="{{ $src.Height }}">
+        </picture>
+    </a>
 </div>
