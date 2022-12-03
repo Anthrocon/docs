@@ -2,8 +2,8 @@ baseURL: "/"
 canonifyURLs: true
 disableHugoGeneratorInject: true
 disableKinds:
-  - taxonomy
-  - term
+  - "taxonomy"
+  - "term"
 
 enableRobotsTXT: true
 frontmatter:
@@ -22,14 +22,14 @@ frontmatter:
     - ":default"
     - ":filename"
 
+ignoreErrors:
+  - "error-disable-taxonomy"
+
 imaging:
   hint: "drawing"
   quality: 85
   resampleFilter: "Lanczos"
 
-ignoreErrors:
-  - error-disable-taxonomy
-  
 languageCode: "en-US"
 markup:
   goldmark:
@@ -38,11 +38,6 @@ markup:
 
   tableOfContents:
     startLevel: 1
-
-theme: "hugo-book"
-timeout: "300s"
-timeZone: "America/New_York"
-title: "Anthrocon Docs"
 
 menu:
   after:
@@ -54,6 +49,10 @@ menu:
       url: "https://github.com/Anthrocon"
       weight: 20
 
+theme: "hugo-book"
+timeout: "300s"
+timeZone: "America/New_York"
+title: "Anthrocon Docs"
 params:
   BookTheme: "auto"
   BookRepo: "https://github.com/Anthrocon/docs"
