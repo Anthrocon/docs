@@ -22,11 +22,22 @@ Website workflow from you, the editor, to delivery.
 
     flowchart LR
         you(you)
+        click you "{{< relref "#you" >}}"
+
         github[(fab:fa-github GitHub\nAnthrocon/docs)]
+        click github "{{< relref "#github" >}}"
+
         hugo{{Hugo}}
+        click hugo "{{< relref "#hugo" >}}"
+
         githubPages[GitHub Pages]
+        click githubPages "{{< relref "#github-pages" >}}"
+
         cloudflare[Cloudflare]
+        click cloudflare "{{< relref "#cloudflare" >}}"
+
         visitor(visitor\ndocs.anthrocon.org)
+        click visitor "{{< relref "#visitor" >}}"
 
         subgraph fab:fa-markdown Markdown
             you <-- Git --> github
@@ -57,9 +68,11 @@ Files are synchronized with an online respository hosted by GitHub. The synchron
 
 Anytime changes are made, Hugo generates finished HTML website files from Markdown.
 
+Hugo is a static website generator. This means all files are processed and stored ready to deliver. This differs from most websites that generate pages on-the-fly with each visit.
+
 ### GitHub Pages
 
-GitHub Pages is a lightweight website server that stores and serves the finished HTML files.
+GitHub Pages is a lightweight website server that stores and serves the finished website files.
 
 ### Cloudflare
 
