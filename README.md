@@ -8,6 +8,6 @@ Documentation relevant to the Anthrocon digital infrastructure. Deploys to [http
 
 Although structured to the needs of Anthrocon, and thereby written to the perspective of its volunteers, this documentation may be more broadly applicable and useful to others.
 
-## Licence
+## License
 
-No licence implied. All rights reserved copyright Anthrocon, Inc., 2022.
+No license implied. All rights reserved copyright Anthrocon, Inc., 2022.
