@@ -1,17 +1,11 @@
 baseURL: "/"
 canonifyURLs: true
 disableHugoGeneratorInject: true
+disableKinds:
+  - taxonomy
+  - term
+
 enableRobotsTXT: true
-languageCode: "en-US"
-theme: "hugo-book"
-timeout: "300s"
-timeZone: "America/New_York"
-title: "Anthrocon Docs"
-
-cascade:
-  _build:
-    publishResources: false
-
 frontmatter:
   date:
     - "date"
@@ -33,6 +27,10 @@ imaging:
   quality: 85
   resampleFilter: "Lanczos"
 
+ignoreErrors:
+  - error-disable-taxonomy
+  
+languageCode: "en-US"
 markup:
   goldmark:
     renderer:
@@ -40,6 +38,11 @@ markup:
 
   tableOfContents:
     startLevel: 1
+
+theme: "hugo-book"
+timeout: "300s"
+timeZone: "America/New_York"
+title: "Anthrocon Docs"
 
 menu:
   after:
