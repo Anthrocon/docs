@@ -40,7 +40,7 @@ Website flow from editor to visitor visualised.
         click visitor "{{< relref "#visitor" >}}"
 
         subgraph fab:fa-markdown Markdown
-            you <-- Git --> github
+            editor <-- Git --> github
         end
 
         github --> hugo
