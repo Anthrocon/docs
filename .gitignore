@@ -1,5 +1,5 @@
-/public/
-/resources/_gen/
+/public/**
+/resources/
 
 /.hugo_build.lock
 /hugo.exe
