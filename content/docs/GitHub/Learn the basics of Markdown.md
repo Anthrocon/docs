@@ -11,9 +11,7 @@ weight: 10
 
 # Learn the basics of Markdown
 
-<i class="fab fa-markdown fa-10x"></i>
-
-Markdown is a common formatting syntax. Markdown files are human-readable text files with the extension `.md`.
+<i class="fab fa-markdown"></i> Markdown is a common formatting syntax. Markdown files are human-readable text files with the extension `.md`.
 
 ## Syntax
 
@@ -23,7 +21,7 @@ Most used text formatting.
 
 | Syntax | Output |
 | :--- | :--- |
-| `# Heading 1`<br>`## Heading 2`<br>`### Heading 3` | <h1>Heading 1</h1><br><h2>Heading 2</h2><br><h3>Heading 3</h3> |
+| `# Heading 1`<br>`## Heading 2`<br>`### Heading 3` | <h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3> |
 | `**Bold**` | **Bold** |
 | `*Italic*` | *Italic* |
 | `~~Strikethrough~~` | ~~Strikethrough~~ |
@@ -32,18 +30,29 @@ Most used text formatting.
 
 Formatted lists are written as you'd like them to appear.
 
+{{< columns >}}
+Syntax
+
 ```markdown
 - First item
 - Second item
 - Third item
 ```
 
+<--->
+
+Output
+
 - First item
 - Second item
 - Third item
+{{< /columns >}}
 
 Numbered lists follow a similar syntax.
 
+{{< columns >}}
+Syntax
+
 ```markdown
 1. First
     - Subpoint
@@ -51,10 +60,15 @@ Numbered lists follow a similar syntax.
 2. Second
 ```
 
+<-->
+
+Output
+
 1. First
     - Subpoint
         - Sub-subpoint
 2. Second
+{{< /columns >}}
 
 ### Images
 
