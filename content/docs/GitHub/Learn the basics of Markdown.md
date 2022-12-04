@@ -41,10 +41,10 @@ Formatted lists are written as you'd like them to appear.
 - First item
 - Second item
 - Third item
-```markdown
 
 Numbered lists follow a similar syntax.
 
+```markdown
 1. First
     - Subpoint
         - Sub-subpoint
@@ -60,14 +60,14 @@ Numbered lists follow a similar syntax.
 
 Hugo shortcode to use. Image location is relative page bundle.
 
-`{{&lt; img src="image.jpg" alt="A descriptive alt text" &gt;}}`
+`{{</* img src="image.jpg" alt="A descriptive alt text" */>}}`
 
 Markdown common image.
 
 `![A descriptive alt text](image.jpg)`
 
 {{< hint warning >}}
-Use the Hugo shortcode provided to render modern picture element. This will generate WebP source sets for best visitor experience.
+Use the Hugo shortcode instead to render modern picture element. This will generate WebP source sets for best visitor experience.
 {{< /hint >}}
 
 ### Links
@@ -76,7 +76,7 @@ URLs can be absolute paths.
 
 `[Another website](https://www.anthrocon.org/)`
 
-Internal paths should use Hugo shortcodes to test validity, plus simplicity of internal relative file names.
+Internal paths should use Hugo shortcodes to test validity, plus simplicity of relative internal file names.
 
-`[Internal link]({{< relref "Learn the basics of Markdown" >}})`
+`[Internal link]({{</* relref "Learn the basics of Markdown" */>}})`
 
