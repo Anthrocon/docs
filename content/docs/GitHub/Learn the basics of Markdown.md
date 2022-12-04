@@ -15,13 +15,15 @@ weight: 10
 
 ## Syntax
 
+Start with basic paragraphes. Paragraphs are separated with an empty line.
+
 ### Text styles
 
 Most used text formatting.
 
-| Syntax | Output |
+| Input | Result |
 | :--- | :--- |
-| `# Heading 1`<br>`## Heading 2`<br>`### Heading 3` | <h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3> |
+| `# Heading 1`<br />`## Heading 2`<br />`### Heading 3` | <h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3> |
 | `**Bold**` | **Bold** |
 | `*Italic*` | *Italic* |
 | `~~Strikethrough~~` | ~~Strikethrough~~ |
@@ -31,7 +33,7 @@ Most used text formatting.
 Formatted lists are written as you'd like them to appear.
 
 {{< columns >}}
-Syntax
+Input
 
 ```markdown
 - First item
@@ -41,7 +43,7 @@ Syntax
 
 <--->
 
-Output
+Result
 
 - First item
 - Second item
@@ -51,7 +53,7 @@ Output
 Numbered lists follow a similar syntax.
 
 {{< columns >}}
-Syntax
+Input
 
 ```markdown
 1. First
@@ -62,7 +64,7 @@ Syntax
 
 <--->
 
-Output
+Result
 
 1. First
     - Subpoint
@@ -94,3 +96,24 @@ Internal paths should use Hugo shortcodes to test validity, plus simplicity of r
 
 `[Internal link]({{</* relref "Learn the basics of Markdown" */>}})`
 
+### Blockquotes
+
+Create blockquotes similar to email.
+
+{{< columns >}}
+Input
+
+```markdown
+> ## Hello
+>
+> How are you?
+```
+
+<--->
+
+Result
+
+> ## Hello
+>
+> How are you?
+{{< /columns >}}
