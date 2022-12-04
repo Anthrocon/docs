@@ -60,7 +60,7 @@ Syntax
 2. Second
 ```
 
-<-->
+<--->
 
 Output
 
