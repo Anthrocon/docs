@@ -60,7 +60,7 @@ Numbered lists follow a similar syntax.
 
 Hugo shortcode to use. Image location is relative page bundle.
 
-`{{< img src="image.jpg" alt="A descriptive alt text" >}}`
+`{{&lt; img src="image.jpg" alt="A descriptive alt text" &gt;}}`
 
 Markdown common image.
 
