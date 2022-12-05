@@ -3,10 +3,16 @@ title: "Anthrocon Docs"
 type: "docs"
 ---
 
-# Getting started
+# Anthrocon Docs
 
 This resource contains guides and answers to Anthrocon's digital infrastructure.
 
-## Using this site
+## Find answers
 
-Search for answers and find guides in the left menu. Navigate chapters in the right table of contents.
+Search for answers and find guides in the menu to the left. Navigate chapters in the table of contents to the right.
+
+## Get started
+
+[Get an overview]({{< relref "docs/GitHub/Overview.md" >}}) of the Anthrocon website network.
+
+[Get started with VS Code]({{< relref "docs/GitHub/Get started with VS Code" >}}) to start contributing.
