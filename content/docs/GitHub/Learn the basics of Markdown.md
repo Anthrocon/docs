@@ -34,10 +34,10 @@ Most used structural elements.
 
 | Input | Result |
 | :- | :- |
-| <pre><code>> ## Blockquote<br />><br />> Lorem ipsum</pre></code> | <blockquote><h2>Blockquote</h2><p>Lorem ipsum</p></blockquote> |
-| <pre><code>- First item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Sub item<br />- Second item</pre></code> | <ul><li>First item<ul><li>Sub item</li></ul></li><li>Second item</li></ul> |
-| <pre><code>1. First item<br />&nbsp;&nbsp;&nbsp;&nbsp;- Sub item<br />2. Second item</pre></code> | <ol><li>First item<ul><li>Sub item</li></ul></li><li>Second item</li></ol> |
-| <pre><code>- [x] Task one<br />&nbsp;&nbsp;&nbsp;&nbsp;- [x] Sub task<br />- [ ] Task two</pre></code> | <ul><li><input checked disabled type="checkbox"> Task one<ul><li><input checked disabled type="checkbox"> Sub task</li></ul></li><li><input disabled type="checkbox"> Task two</li></ul> |
+| <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>> ## Blockquote</span></span><span style="display:flex;"><span>></span></span><span style="display:flex;"><span>> Lorem ipsum</span></span></code></pre></div> | <blockquote><h2>Blockquote</h2><p>Lorem ipsum</p></blockquote> |
+| <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>- First item</span></span><span style="display:flex;"><span>&nbsp;&nbsp;&nbsp;&nbsp;- Sub item</span></span><span style="display:flex;"><span>- Second item</span></span></code></pre></div> | <ul><li>First item<ul><li>Sub item</li></ul></li><li>Second item</li></ul> |
+| <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>1. First item</span></span><span style="display:flex;"><span>&nbsp;&nbsp;&nbsp;&nbsp;- Sub item</span></span><span style="display:flex;"><span>2. Second item</span></span></code></pre></div> | <ol><li>First item<ul><li>Sub item</li></ul></li><li>Second item</li></ol> |
+| <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>- [x] Task one</span></span><span style="display:flex;"><span>&nbsp;&nbsp;&nbsp;&nbsp;- [x] Sub task</span></span><span style="display:flex;"><span>- [ ] Task two</span></span></code></pre></div> | <ul><li><input checked disabled type="checkbox"> Task one<ul><li><input checked disabled type="checkbox"> Sub task</li></ul></li><li><input disabled type="checkbox"> Task two</li></ul> |
 
 ## Links
 
@@ -79,6 +79,26 @@ Horizontal rule
 Horizontal rule
 
 ---
+
+</div>
+{{< /columns >}}
+
+## Table
+
+Tables are drawn out with pipes and dashes. Online generators are available to make this process more elegant.
+
+{{< columns >}}
+```markdown
+| foo | bar |
+|-----|-----|
+| one | two |
+```
+
+<---><div style="margin-top: 1.5em;">
+
+| foo | bar |
+|-----|-----|
+| one | two |
 
 </div>
 {{< /columns >}}
