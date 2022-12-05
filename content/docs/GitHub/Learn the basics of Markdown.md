@@ -13,11 +13,11 @@ weight: 10
 
 <i class="fab fa-markdown"></i> Markdown is a common formatting syntax. Markdown files are human-readable text files with the extension `.md`.
 
-## Syntax
+## Paragraphs
 
-Start with basic paragraphes. Paragraphs are separated with an empty line.
+Start with basic paragraphes. Paragraphs are separated by an empty line.
 
-### Text styles
+## Text styles
 
 Most used text formatting.
 
@@ -28,12 +28,11 @@ Most used text formatting.
 | `*Italic*` | *Italic* |
 | `~~Strikethrough~~` | ~~Strikethrough~~ |
 
-### Lists
+## Lists
 
 Formatted lists are written as you'd like them to appear.
 
 {{< columns >}}
-Input
 
 ```markdown
 - First item
@@ -41,19 +40,18 @@ Input
 - Third item
 ```
 
-<--->
-
-Result
+<---><div style="margin-top: 1.5em;">
 
 - First item
 - Second item
 - Third item
+
+</div>
 {{< /columns >}}
 
 Numbered lists follow a similar syntax.
 
 {{< columns >}}
-Input
 
 ```markdown
 1. First
@@ -62,17 +60,17 @@ Input
 2. Second
 ```
 
-<--->
-
-Result
+<---><div style="margin-top: 1.5em;">
 
 1. First
     - Subpoint
         - Sub-subpoint
 2. Second
+
+</div>
 {{< /columns >}}
 
-### Images
+## Images
 
 Hugo shortcode to use. Image location is relative page bundle.
 
@@ -86,22 +84,21 @@ Markdown common image.
 Use the Hugo shortcode instead to render modern picture element. This will generate WebP source sets for best visitor experience.
 {{< /hint >}}
 
-### Links
+## Links
 
 URLs can be absolute paths.
 
 `[Another website](https://www.anthrocon.org/)`
 
-Internal paths should use Hugo shortcodes to test validity, plus simplicity of relative internal file names.
+Internal paths should use Hugo shortcode to test validity, plus simplicity of relative internal file names.
 
 `[Internal link]({{</* relref "Learn the basics of Markdown" */>}})`
 
-### Blockquotes
+## Blockquotes
 
 Create blockquotes similar to email.
 
 {{< columns >}}
-Input
 
 ```markdown
 > ## Hello
@@ -109,11 +106,11 @@ Input
 > How are you?
 ```
 
-<--->
-
-Result
+<---><div style="margin-top: 1.5em;">
 
 > ## Hello
 >
 > How are you?
+
+</div>
 {{< /columns >}}
