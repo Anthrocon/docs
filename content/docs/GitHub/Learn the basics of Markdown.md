@@ -89,16 +89,18 @@ Tables are drawn out with pipes and dashes. Online generators are available to m
 
 {{< columns >}}
 ```markdown
-| foo | bar |
-|-----|-----|
-| one | two |
+| foo   | bar  |
+|-------|------|
+| one   | two  |
+| three | four |
 ```
 
 <---><div style="margin-top: 1.5em;">
 
-| foo | bar |
-|-----|-----|
-| one | two |
+| foo   | bar  |
+|-------|------|
+| one   | two  |
+| three | four |
 
 </div>
 {{< /columns >}}
