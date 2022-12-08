@@ -15,12 +15,12 @@ Any web viewable JPEG is accepted. These are recommendations if your workflow is
 
 ## Important settings
 
-Mojor settings to help the content team.
+Primary settings most affecting web viewing.
 
 | Setting | Value | Note |
 | :- | :- | :- |
-| Resolution | Native | As large as you're willing up to native. |
-| File type | JPEG |
+| Resolution | Native | As large as you're willing; up to native. |
+| File type | JPEG | |
 
 ## Additional tips
 
