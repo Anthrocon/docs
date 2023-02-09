@@ -34,5 +34,6 @@ Default installation is fine. Don't worry if you don't unsterstand these options
 
 # Next steps
 
-- [Learn the basics of Markdown]({{< relref "Learn the basics of Markdown" >}})
+- [Set your Git username and email]({{< relref "Set your Git username and email" >}})
 - [Add a spell checker to VS Code]({{< relref "Add a spell checker to VS Code" >}})
+- [Learn the basics of Markdown]({{< relref "Learn the basics of Markdown" >}})

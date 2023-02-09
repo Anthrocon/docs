@@ -22,3 +22,8 @@ weight: 10
 Unknown words are underlined as you type. Find suggestions by hovering your mouse over the word, then clicking `Quick Fix…`.
 
 Find all unknown words by selecting `View` ❯ `Problems`.
+
+# Next steps
+
+- [Set your Git username and email]({{< relref "Set your Git username and email" >}})
+- [Learn the basics of Markdown]({{< relref "Learn the basics of Markdown" >}})
