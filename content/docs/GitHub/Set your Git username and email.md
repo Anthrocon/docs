@@ -13,11 +13,11 @@ weight: 10
 
 The Git protocol stores username and email information with commits you make. This is separate from your GitHub credentials.
 
-## Set the username associated with commits
+## Set your username
 
 The Git username is displayed beside each commit.
 
-{{< hint info >}}
+{{< hint warning >}}
 Although it's possible to set any username, using your GitHub username will make troubleshooting much easier.
 {{< /hint >}}
 
@@ -34,7 +34,7 @@ Although it's possible to set any username, using your GitHub username will make
 {{< /tab >}}
 {{< /tabs >}}
 
-## Set the email address used for commits
+## Set your email
 
 The Git email address is used to link commits to your GitHub account.
 
@@ -44,7 +44,7 @@ GitHub provides a private email address for commits if you wish to keep your per
 1. Sign into GitHub.
 2. From the user menu at the top right, select `Settings`.
 3. Select `Emails`.
-4. Scroll to `Keep my email addresses private`, then copy your private address. It looks something like: 123456789+MaxHeadroom@users.noreply.github.com.
+4. Scroll to `Keep my email addresses private`, then copy your private address. It looks something like: 123456789+MaxHeadroom\@users.noreply.github.com.
 {{< /hint >}}
 
 {{< tabs "email" >}}
