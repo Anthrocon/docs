@@ -26,4 +26,5 @@ Find all unknown words by selecting `View` ❯ `Problems`.
 # Next steps
 
 - [Set your Git username and email]({{< relref "Set your Git username and email" >}})
+- [Submit edits from VS Code]({{< relref "Submit edits from VS Code" >}})
 - [Learn the basics of Markdown]({{< relref "Learn the basics of Markdown" >}})

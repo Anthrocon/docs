@@ -62,5 +62,5 @@ GitHub provides a private email address for commits if you wish to keep your per
 
 # Next steps
 
-- [Add a spell checker to VS Code]({{< relref "Add a spell checker to VS Code" >}})
+- [Submit edits from VS Code]({{< relref "Submit edits from VS Code" >}})
 - [Learn the basics of Markdown]({{< relref "Learn the basics of Markdown" >}})
