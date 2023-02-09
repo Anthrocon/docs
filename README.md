@@ -10,4 +10,4 @@ Although structured to the needs of Anthrocon, and thereby written to the perspe
 
 ## License
 
-No license implied. All rights reserved copyright Anthrocon, Inc., 2022.
+No license implied. All rights reserved copyright Anthrocon, Inc., 2023.
