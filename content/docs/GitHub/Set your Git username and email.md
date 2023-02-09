@@ -53,7 +53,7 @@ GitHub provides a private email address for commits if you wish to keep your per
 2. Set your email by entering `git config --global user.email "123456789+MaxHeadroom@users.noreply.github.com"`, substituting your own email.
 3. Confirm your email by entering `git config --global user.email`.
 {{< /tab >}}
-{{< tab "Git CLI >}}
+{{< tab "Git CLI" >}}
 1. Open Git Bash from your applications.
 2. Set your email by entering `git config --global user.email "123456789+MaxHeadroom@users.noreply.github.com"`, substituting your own email.
 3. Confirm your email by entering `git config --global user.email`.
