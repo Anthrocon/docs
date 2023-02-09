@@ -31,3 +31,8 @@ Default installation is fine. Don't worry if you don't unsterstand these options
 4. In VS Code, enter and select a repository. `Anthrocon/docs`, for example.
 5. Select a folder where VS Code will store working files for this repository.
 6. Open the cloned repository.
+
+# Next steps
+
+- [Learn the basics of Markdown]({{< relref "Learn the basics of Markdown" >}})
+- [Add a spell checker to VS Code]({{< relref "Add a spell checker to VS Code" >}})

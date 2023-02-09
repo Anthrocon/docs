@@ -87,3 +87,8 @@ Cloudflare provides a global network of last-mile servers. As the junction betwe
 ## Visitor
 
 A furry.
+
+# Next steps
+
+- [Get started with VS Code]({{< relref "Get started with VS Code" >}})
+- [Get started with GitHub Desktop]({{< relref "Get started with GitHub Desktop" >}})
