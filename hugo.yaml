@@ -11,8 +11,6 @@ frontmatter:
     - "date"
     - ":filename"
     - "publishDate"
-    - "lastmod"
-    - ":git"
 
   lastmod:
     - "lastmod"
