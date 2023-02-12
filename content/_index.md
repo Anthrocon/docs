@@ -1,18 +1,31 @@
 ---
-title: "Anthrocon Docs"
+title: "Introduction"
 type: "docs"
 ---
 
-# Anthrocon Docs
+# Introduction
 
-This resource contains guides and answers to Anthrocon's digital infrastructure.
+Get help navigating our digital infrastructure with our guides and answers.
 
 ## Find answers
 
-Search for answers and find guides in the menu to the left. Navigate chapters in the table of contents to the right.
+- Use the search bar at the top left to quickly find what you're looking for.
+- Browse available guides and answers in the navigation menu on the left.
+- If reading a guide, use the table of contents on the right to navigate chapters.
 
-## Get started
+{{< columns >}}
+## Contribute with GitHub
 
-[Get an overview]({{< relref "docs/GitHub/Overview.md" >}}) of the Anthrocon website network.
+- [Get an overview]({{< relref "docs/GitHub/Overview" >}}) of the Anthrocon website network.
+- [Start editing with Visual Studio Code (VS Code)]({{< relref "docs/GitHub/Get started with VS Code" >}}).
 
-[Get started with VS Code]({{< relref "docs/GitHub/Get started with VS Code" >}}) to start contributing.
+<--->
+
+## Submit photography
+
+- Learn how to [size and format photos for submission]({{< relref "docs/Media/Size and format photographs" >}}) to our shared drive.
+{{< /columns >}}
+
+## Need more help?
+
+- Email webmaster@anthrocon.org for technical assistance.
